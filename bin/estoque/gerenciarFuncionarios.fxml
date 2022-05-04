@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="estoque.gerenciarFuncionarios">
+   <children>
+      <Label layoutX="109.0" layoutY="40.0" text="Gerenciar Funcionários">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="89.0" layoutY="120.0" text="Cpf" />
+      <Label layoutX="84.0" layoutY="152.0" text="Login" />
+      <Label layoutX="71.0" layoutY="281.0" text="Endereço" />
+      <Label layoutX="83.0" layoutY="185.0" text="Senha" />
+      <Label layoutX="79.0" layoutY="215.0" text="Nome" />
+      <Label layoutX="72.0" layoutY="251.0" text="Telefone" />
+      <Label layoutX="84.0" layoutY="313.0" text="Cargo" />
+      <TextField fx:id="txtCpf" layoutX="176.0" layoutY="116.0" />
+      <TextField fx:id="txtLogin" layoutX="176.0" layoutY="148.0" />
+      <TextField fx:id="txtSenha" layoutX="176.0" layoutY="181.0" />
+      <TextField fx:id="txtNome" layoutX="176.0" layoutY="211.0" />
+      <TextField fx:id="txtTelefone" layoutX="176.0" layoutY="247.0" />
+      <TextField fx:id="txtEndereco" layoutX="176.0" layoutY="277.0" />
+      <TextField fx:id="txtCargo" layoutX="176.0" layoutY="309.0" />
+      <Button fx:id="btnAdicionar" layoutX="22.0" layoutY="444.0" mnemonicParsing="false" onAction="#onBtnAdicionarClick" text="Adicionar" />
+      <Button fx:id="btnConsultar" layoutX="116.0" layoutY="444.0" mnemonicParsing="false" onAction="#onBtnConsultarClick" text="Consultar" />
+      <Button fx:id="btnAlterar" layoutX="224.0" layoutY="444.0" mnemonicParsing="false" onAction="#onBtnAlterarClick" text="Alterar" />
+      <Button fx:id="btnExcluir" layoutX="318.0" layoutY="444.0" mnemonicParsing="false" onAction="#onBtnExcluirClick" text="Excluir" />
+      <Label fx:id="lblResult" layoutX="234.0" layoutY="376.0" text="Result" />
+      <Button fx:id="btnLimpar" layoutX="409.0" layoutY="444.0" mnemonicParsing="false" onAction="#onBtnLimparClick" text="Limpar" />
+   </children>
+</AnchorPane>

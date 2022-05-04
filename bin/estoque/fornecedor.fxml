@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17">
+   <children>
+      <Label layoutX="236.0" layoutY="65.0">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="166.0" layoutY="45.0" text="Fornecedores">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="109.0" layoutY="128.0" text="Nome" />
+      <Label layoutX="114.0" layoutY="164.0" text="Tipo" />
+      <Label layoutX="109.0" layoutY="198.0" text="Email" />
+      <Label layoutX="92.0" layoutY="233.0" text="Telefone" />
+      <TextField fx:id="txtNome" layoutX="176.0" layoutY="124.0" />
+      <TextField fx:id="txtTipo" layoutX="176.0" layoutY="160.0" />
+      <TextField fx:id="txtEmail" layoutX="176.0" layoutY="194.0" />
+      <TextField fx:id="txtTelefone" layoutX="176.0" layoutY="229.0" />
+      <Button layoutX="21.0" layoutY="452.0" mnemonicParsing="false" text="Adicionar" />
+      <Button layoutX="126.0" layoutY="452.0" mnemonicParsing="false" text="Limpar" />
+      <Button layoutX="224.0" layoutY="452.0" mnemonicParsing="false" text="Consultar" />
+      <Button layoutX="325.0" layoutY="452.0" mnemonicParsing="false" text="Alterar" />
+      <Button layoutX="411.0" layoutY="452.0" mnemonicParsing="false" text="Excluir" />
+      <Label fx:id="lblResult" layoutX="234.0" layoutY="368.0" text="Result" />
+   </children>
+</AnchorPane>

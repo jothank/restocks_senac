@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="alterarControler">
+   <children>
+      <TextField fx:id="txtNome" layoutX="140.0" layoutY="104.0" />
+      <Label layoutX="79.0" layoutY="108.0" text="Nome" />
+      <Label layoutX="55.0" layoutY="313.0" text="Quantidade" />
+      <Label layoutX="86.0" layoutY="219.0" text="Tipo" />
+      <TextField fx:id="txtQuantidade" layoutX="140.0" layoutY="309.0" />
+      <TextField fx:id="txtTipo" layoutX="140.0" layoutY="215.0" />
+      <TextField fx:id="txtLocal" layoutX="140.0" layoutY="262.0" />
+      <Label layoutX="66.0" layoutY="266.0" text="localização" />
+      <Label layoutX="61.0" layoutY="143.0" text="Prateleira" />
+      <Label layoutX="105.0" layoutY="39.0" text="Gerenciar Produto">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtPrateleira" layoutX="140.0" layoutY="139.0" />
+      <TextField fx:id="txtDataValidade" layoutX="140.0" layoutY="350.0" />
+      <Button fx:id="btnExcluir" layoutX="30.0" layoutY="464.0" mnemonicParsing="false" onAction="#onBtnExcluirClick" text="Excluir" />
+      <Button fx:id="btnAlterar" layoutX="395.0" layoutY="464.0" mnemonicParsing="false" onAction="#onBtnAlterarClick" text="Alterar" />
+      <Label layoutX="36.0" layoutY="354.0" text="Data de Validade" />
+      <Label layoutX="32.0" layoutY="386.0" text="Data de fabricação" />
+      <TextField fx:id="txtDataFabri" layoutX="140.0" layoutY="382.0" />
+      <Button fx:id="btnConsultar" layoutX="201.0" layoutY="464.0" mnemonicParsing="false" onAction="#onBtnConsultarClick" text="Consultar" />
+      <Label layoutX="70.0" layoutY="175.0" text="Marca" />
+      <TextField fx:id="txtMarca" layoutX="140.0" layoutY="171.0" />
+      <Label fx:id="lblResult" layoutX="218.0" layoutY="426.0" text="Result" />
+   </children>
+</AnchorPane>
